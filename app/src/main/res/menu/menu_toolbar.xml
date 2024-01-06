@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+  <!-- TODO 9 Add infoItem with icon   -->
+
+   <item
+    android:id="@+id/infoMenu"
+    android:icon="@drawable/ic_info"
+    android:title="@string/info"
+    app:showAsAction="ifRoom" />
+   <!-- TODO 10 Add logoutItem with icon   -->
+
+    <item
+    android:id="@+id/logoutMenu"
+    android:icon="@drawable/ic_logout"
+    android:title="@string/logout"
+    app:showAsAction="never" />
+
+   </menu>
