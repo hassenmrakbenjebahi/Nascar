@@ -70,7 +70,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/materialDivider"
-        android:name="tn.esprit.nascar.NewsFragment"
+        android:name="tn.esprit.nascar.fragment.NewsFragment"
         tools:layout="@layout/fragment_news" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
